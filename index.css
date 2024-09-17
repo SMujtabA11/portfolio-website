@@ -28,3 +28,37 @@ span{
     color: white;
     padding: 10px;
 }
+#Hero-section{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+#hero-text{
+    color: white;
+    margin: 50px 0px 0px 50px;
+    padding: 10px;
+}
+#hero-text>h1{
+    padding: 5px;
+    font-size: 45px;
+}
+#hero-text>h1:nth-child(3){
+    color: red;
+    padding-bottom: 15px;
+}
+#hero-text>button{
+    border: 2px solid red;
+    width: 170px;
+    color: white;
+    padding: 20px;
+    background-color: transparent;
+}
+#hero-text>button:hover{
+    background-color: red;
+    transition: 1ms linear;
+}
+#hero-img{
+    filter:drop-shadow(2px 2px 20px red);
+    margin-top: 50px;
+}
+
