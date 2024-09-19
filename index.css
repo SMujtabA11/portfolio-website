@@ -46,14 +46,14 @@ span{
     color: red;
     padding-bottom: 15px;
 }
-#hero-text>button{
+#hero-text>#PORTFOLIO-btn{
     border: 2px solid red;
     width: 170px;
     color: white;
     padding: 20px;
     background-color: transparent;
 }
-#hero-text>button:hover{
+#hero-text>#PORTFOLIO-btn:hover{
     background-color: red;
     transition: 1ms linear;
 }
@@ -119,5 +119,33 @@ span{
 #recent-sec-img{
     width:500px;
     border: 1px solid black;
-
+}
+#about-sec{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 50px;
+    height: 500px;
+    column-gap: 50px;
+    margin-left: 50px;
+}
+#about-img-sec{
+    border: 6px solid red;
+    height: 220px;
+}
+#about-img-sec>img{
+    transform: translateX(20px) translateY(-20px);
+}
+#cv-download-btn{
+    border: 2px solid red;
+    width: 190px;
+    padding: 20px;
+    background-color: white;
+}
+#cv-download-btn>a{
+    text-decoration: none;
+    color: black;
+}
+#cv-download-btn:hover{
+background-color: red;
+transition: 1ms linear;
 }

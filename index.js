@@ -8,7 +8,7 @@ gsap.fromTo("#hero-img img",
     }
   );
 
-  gsap.from("#hero-text h1 ,button ",{
+  gsap.from("#hero-text h1 ,#PORTFOLIO-btn ",{
     x:-300,
     duration:2,
     delay:1,
