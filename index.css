@@ -94,7 +94,7 @@ span{
 #card1>p{
     padding-top: 10px;
 }
-#recent-sec-heading{
+#recent-sec-heading,#contact-sec-heading{
     margin-top: 40px;
     text-align: center;
 }
@@ -124,7 +124,6 @@ span{
     display: flex;
     flex-wrap: wrap;
     margin-top: 50px;
-    height: 500px;
     column-gap: 50px;
     margin-left: 50px;
 }
@@ -148,4 +147,24 @@ span{
 #cv-download-btn:hover{
 background-color: red;
 transition: 1ms linear;
+}
+#contact-sec{
+    display: flex;
+    justify-content:center;
+    gap:20px;
+    margin-top: 20px;
+    flex-wrap: wrap;
+}
+#phone-div,#email-div,#address-div{
+    background-color: white;
+    height: 150px;
+    width: 290px;
+    display:flex;
+    justify-content:left;
+    align-items:center;
+    border: 1px solid grey;
+    column-gap: 5px;
+    border-radius:20px 40px;
+    box-shadow:2px 2px 2px 2px grey;
+
 }
