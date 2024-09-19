@@ -72,12 +72,11 @@ span{
 }
 #service-card-sec{
     width: auto;
-    height: 500px;
     display: flex;
     justify-content: space-around; 
     flex-wrap: wrap;
 }
-#card1{
+#card1,#card2,#card3,#card4{
     width:200px;
     height: 320px;
     padding: 10px;
@@ -95,4 +94,30 @@ span{
 #card1>p{
     padding-top: 10px;
 }
+#recent-sec-heading{
+    margin-top: 40px;
+    text-align: center;
+}
+#recent-sec{
+    width:auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 60px;  
+}
+#data-div{
+    text-align: left;
+    padding:50px 0px 0px 10px;
+    background-color: rgb(104, 103, 103);
+    color: white;
+    width:500px;
+    border: 1px solid black;
+}
+#data-div>h3,p,p{
+    padding-bottom: 10px;
+}
+#recent-sec-img{
+    width:500px;
+    border: 1px solid black;
 
+}
