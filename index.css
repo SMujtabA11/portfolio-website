@@ -3,7 +3,7 @@
     margin: 0px;
     box-sizing: border-box;
 }
-body{
+header,#Hero-section{
     background-image: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.8)),url("./assests/programming-background-with-person-working-with-codes-computer.jpg");
     background-position: center;
     background-size: cover;
@@ -59,6 +59,39 @@ span{
 }
 #hero-img{
     filter:drop-shadow(2px 2px 20px red);
+    margin-top: 30px;
+    margin-right: 10px;
+}
+#service-sec{
+    width: auto;
+    text-align: center;
     margin-top: 50px;
+}
+#service-sec>p{
+    margin-top: 10px;
+}
+#service-card-sec{
+    width: auto;
+    height: 500px;
+    display: flex;
+    justify-content: space-around; 
+    flex-wrap: wrap;
+}
+#card1{
+    width:200px;
+    height: 320px;
+    padding: 10px;
+    text-align: left;
+    border-radius:20px 40px;
+    background-image: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.8)),url("./assests/card\ pic.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    color: white;
+    margin-top: 30px;
+}
+#card1>p{
+    padding-top: 10px;
 }
 
