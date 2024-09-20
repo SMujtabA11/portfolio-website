@@ -27,7 +27,7 @@ gsap.from("#logo-div ", {
     delay: 1,   
     stagger:2.8,
   });
-
+//Menubutton toogle code start
 var btn = document.getElementById("menu-icon-btn");
 var menuIcon = document.getElementById("nav-links");
 var heroText = document.getElementById("hero-text");
@@ -37,6 +37,8 @@ btn.addEventListener("click",function(){
   menuIcon.style.visibility="visible";
   menuIcon.style.display="flex";
   menuIcon.style.flexDirection="column";
+
+  
   isopen=true;
   }
   else{
@@ -45,3 +47,4 @@ btn.addEventListener("click",function(){
     isopen=false;
   }
 })
+//Menubutton toogle code ends
