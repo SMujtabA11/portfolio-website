@@ -27,3 +27,21 @@ gsap.from("#logo-div ", {
     delay: 1,   
     stagger:2.8,
   });
+
+var btn = document.getElementById("menu-icon-btn");
+var menuIcon = document.getElementById("nav-links");
+var heroText = document.getElementById("hero-text");
+var isopen=false;
+btn.addEventListener("click",function(){
+  if(isopen === false){
+  menuIcon.style.visibility="visible";
+  menuIcon.style.display="flex";
+  menuIcon.style.flexDirection="column";
+  isopen=true;
+  }
+  else{
+    menuIcon.style.display="none";
+    heroText.style.margin = "20px 0px 0px 20px"; 
+    isopen=false;
+  }
+})

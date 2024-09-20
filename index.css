@@ -12,8 +12,6 @@ header,#Hero-section{
 }
 nav{
     width: auto;
-    position: sticky;
-    top: 0px;
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
@@ -22,6 +20,9 @@ nav{
 }
 span{
     color:rgb(255, 0, 0);
+}
+#menu-icon{
+    visibility: hidden;
 }
 #nav-links>a{
     text-decoration: none;    
@@ -32,11 +33,12 @@ span{
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
+    width: auto;
 }
 #hero-text{
     color: white;
     margin: 50px 0px 0px 50px;
-    padding: 10px;
+    padding: 5px;
 }
 #hero-text>h1{
     padding: 5px;
@@ -124,7 +126,7 @@ span{
     display: flex;
     flex-wrap: wrap;
     margin-top: 50px;
-    column-gap: 50px;
+    column-gap:30px;
     margin-left: 50px;
 }
 #about-img-sec{
@@ -172,4 +174,22 @@ footer{
     text-align: center;
     background-color: grey;
     padding-top: 10px;
+}
+@media screen and (max-width:767px){
+    #nav-links{
+display:none;
+}
+#menu-icon{
+    visibility:visible;
+}
+#hero-text{
+    margin:"20px 0px 0px 20px"; 
+}
+#menu-icon-btn{
+    background-color: transparent;
+    margin-right: 10px;
+}
+#hero-img>img{
+    height: 300px;
+}
 }
